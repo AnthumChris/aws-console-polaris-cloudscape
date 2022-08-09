@@ -17,7 +17,7 @@ export default () =>
         ]}
       />
     }
-    contentType='default' // default | form | table | cards | wizard
+    contentType='wizard' // default | form | table | cards | wizard
     content={<DefaultPage />}
     navigationWidth={160}
     navigation={

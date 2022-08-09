@@ -1,0 +1,21 @@
+.wizard-sectional nav ul > li {
+  margin-left: 1.5em;
+}
+
+.wizard-sectional-nav-header {
+  color: #687078; /* TODO use CSS token */
+  border: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  font-weight: bold;
+}
+
+.wizard-sectional-nav-item-last {
+  border: none !important;
+}
+
+.wizard-nav-links-disabled nav ul > li a {
+  text-decoration: none !important;
+  cursor: text !important;
+  color: inherit !important;
+}
