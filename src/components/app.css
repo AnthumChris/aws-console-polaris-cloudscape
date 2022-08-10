@@ -1,0 +1,18 @@
+.link-icon-wrap-fix {
+  display: inline !important;
+  /*vertical-align: middle;*/
+}
+
+.link-icon-wrap-fix > span {
+  white-space: nowrap !important;
+  display: inline !important;
+}
+
+.link-icon-wrap-fix > span:before {
+  content: ' ';
+}
+
+.link-icon-wrap-fix svg {
+  position: relative !important;
+  top: calc( (1em / 16) + 2px);
+}
